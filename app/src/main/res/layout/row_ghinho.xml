@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Các câu hỏi sau chọn đáp án 1 :"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvnameghinho"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmota1"
+        android:textSize="20dp"
+        android:text="-Khaisnieenjjfjsjdkjdsjjdksjksdjsjdkjdkjdjksdjkdsjksdj"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmota2"
+        android:text="-Khaisnieenjjfjsjdkjdsjjdksjksdjsjdkjdkjdjksdjkdsjksdj"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmota3"
+        android:text="-Khaisnieenjjfjsjdkjdsjjdksjksdjsjdkjdkjdjksdjkdsjksdj"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmota4"
+        android:text="-Khaisnieenjjfjsjdkjdsjjdksjksdjsjdkjdkjdjksdjkdsjksdj"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmota5"
+        android:text="-Khaisnieenjjfjsjdkjdsjjdksjksdjsjdkjdkjdjksdjkdsjksdj"/>
+
+</LinearLayout>
