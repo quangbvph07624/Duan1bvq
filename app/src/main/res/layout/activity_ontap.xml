@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".OntapActivity">
+    tools:context=".activity.OntapActivity">
     <Button
         android:onClick="one"
         android:layout_width="match_parent"

@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExxampleActivity"></activity>
-        <activity android:name=".OntapActivity" />
-        <activity android:name=".GhiNhoActivity" />
-        <activity android:name=".BienBaoActivity" />
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".WaitTracnghiemActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".WelcomesActivity">
+        <activity android:name=".activity.FinishTestActivity"></activity>
+        <activity android:name=".activity.ExxampleActivity" />
+        <activity android:name=".activity.OntapActivity" />
+        <activity android:name=".activity.GhiNhoActivity" />
+        <activity android:name=".activity.BienBaoActivity" />
+        <activity android:name=".activity.QuizActivity" />
+        <activity android:name=".activity.WaitTracnghiemActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.WelcomesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

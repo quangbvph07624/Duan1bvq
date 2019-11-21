@@ -1,10 +1,13 @@
-package com.example.duanbvq;
+package com.example.duanbvq.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.duanbvq.R;
+import com.example.duanbvq.activity.MainActivity;
 
 public class WelcomesActivity extends AppCompatActivity {
 
@@ -20,7 +23,7 @@ public class WelcomesActivity extends AppCompatActivity {
                 finish();
 
             }
-        },1500);
+        }, 1500);
 
     }
 }

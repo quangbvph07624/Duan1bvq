@@ -1,4 +1,4 @@
-package com.example.duanbvq;
+package com.example.duanbvq.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,14 +7,18 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.example.duanbvq.model.Ghinho;
+import com.example.duanbvq.R;
+
 import java.util.List;
 
 public class GhinhoAdapter extends BaseAdapter {
     Context context;
     List<Ghinho> ghinhoList;
-    public GhinhoAdapter(Context context,List<Ghinho> ghinhoList){
-        this.context=context;
-        this.ghinhoList=ghinhoList;
+
+    public GhinhoAdapter(Context context, List<Ghinho> ghinhoList) {
+        this.context = context;
+        this.ghinhoList = ghinhoList;
     }
 
     @Override
@@ -34,13 +38,13 @@ public class GhinhoAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View view, ViewGroup parent) {
-        view= LayoutInflater.from(context).inflate(R.layout.row_ghinho,parent,false);
-        TextView tvname1=view.findViewById(R.id.tvnameghinho);
-        TextView tvmota1=view.findViewById(R.id.tvmota1);
-        TextView tvmota2=view.findViewById(R.id.tvmota2);
-        TextView tvmota3=view.findViewById(R.id.tvmota3);
-        TextView tvmota4=view.findViewById(R.id.tvmota4);
-        TextView tvmota5=view.findViewById(R.id.tvmota5);
+        view = LayoutInflater.from(context).inflate(R.layout.row_ghinho, parent, false);
+        TextView tvname1 = view.findViewById(R.id.tvnameghinho);
+        TextView tvmota1 = view.findViewById(R.id.tvmota1);
+        TextView tvmota2 = view.findViewById(R.id.tvmota2);
+        TextView tvmota3 = view.findViewById(R.id.tvmota3);
+        TextView tvmota4 = view.findViewById(R.id.tvmota4);
+        TextView tvmota5 = view.findViewById(R.id.tvmota5);
         tvname1.setText(ghinhoList.get(position).getName());
         tvmota1.setText(ghinhoList.get(position).getMota1());
         tvmota2.setText(ghinhoList.get(position).getMota2());

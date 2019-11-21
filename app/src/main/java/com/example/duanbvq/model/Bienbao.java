@@ -1,7 +1,7 @@
-package com.example.duanbvq;
+package com.example.duanbvq.model;
 
 public class Bienbao {
-    int id,image;
+    int id, image;
     String name;
     String mota;
 

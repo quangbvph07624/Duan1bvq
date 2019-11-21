@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_marginTop="60dp"
     android:gravity="center|top"
-    tools:context=".WaitTracnghiemActivity">
+    tools:context=".activity.WaitTracnghiemActivity">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

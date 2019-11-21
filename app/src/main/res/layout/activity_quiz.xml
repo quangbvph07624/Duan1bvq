@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".QuizActivity">
+    tools:context=".activity.QuizActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radio_group"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="145dp"
+        android:onClick="next"
         android:text="Tiếp Theo" />
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.duanbvq;
+package com.example.duanbvq.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,14 +8,18 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.duanbvq.model.Bienbao;
+import com.example.duanbvq.R;
+
 import java.util.List;
 
 public class BienBaoAdapter extends BaseAdapter {
     Context context;
     List<Bienbao> bienbaoList;
-    public BienBaoAdapter (Context context,List<Bienbao> bienbaoList){
-        this.context=context;
-        this.bienbaoList=bienbaoList;
+
+    public BienBaoAdapter(Context context, List<Bienbao> bienbaoList) {
+        this.context = context;
+        this.bienbaoList = bienbaoList;
     }
 
     @Override
@@ -35,12 +39,12 @@ public class BienBaoAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View view, ViewGroup parent) {
-        view= LayoutInflater.from(context).inflate(R.layout.row_bienbao,parent,false);
-        TextView tvid=view.findViewById(R.id.tvid);
-        TextView tvname=view.findViewById(R.id.tvname);
-        TextView tvmota=view.findViewById(R.id.tvmota);
-        ImageView img1=view.findViewById(R.id.img1);
-        tvid.setText(bienbaoList.get(position).getId()+"");
+        view = LayoutInflater.from(context).inflate(R.layout.row_bienbao, parent, false);
+        TextView tvid = view.findViewById(R.id.tvid);
+        TextView tvname = view.findViewById(R.id.tvname);
+        TextView tvmota = view.findViewById(R.id.tvmota);
+        ImageView img1 = view.findViewById(R.id.img1);
+        tvid.setText(bienbaoList.get(position).getId() + "");
         tvname.setText(bienbaoList.get(position).getName());
         tvmota.setText(bienbaoList.get(position).getMota());
         img1.setImageResource(bienbaoList.get(position).getImage());

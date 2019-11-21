@@ -1,4 +1,4 @@
-package com.example.duanbvq;
+package com.example.duanbvq.model;
 
 public class Ghinho {
     String name;

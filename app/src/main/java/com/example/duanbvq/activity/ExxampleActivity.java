@@ -1,4 +1,4 @@
-package com.example.duanbvq;
+package com.example.duanbvq.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,20 +6,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class QuizActivity extends AppCompatActivity {
+import com.example.duanbvq.R;
+
+public class ExxampleActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.activity_quiz);
-        setTitle("Câu Hỏi");
+        setContentView(R.layout.activity_exxample);
+        setTitle("Quy Định");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
                 return true;

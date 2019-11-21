@@ -1,4 +1,4 @@
-package com.example.duanbvq;
+package com.example.duanbvq.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.example.duanbvq.R;
+import com.example.duanbvq.activity.QuizActivity;
 
 public class WaitTracnghiemActivity extends AppCompatActivity {
     Intent intent;
@@ -21,7 +24,7 @@ public class WaitTracnghiemActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
                 return true;
@@ -30,7 +33,7 @@ public class WaitTracnghiemActivity extends AppCompatActivity {
     }
 
     public void start(View view) {
-        Intent intent =new Intent(this,QuizActivity.class);
+        Intent intent = new Intent(this, QuizActivity.class);
         startActivity(intent);
     }
 }
