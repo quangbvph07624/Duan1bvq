@@ -14,6 +14,7 @@
         android:orientation="horizontal"
         android:layout_marginBottom="20dp">
     <Button
+        android:id="@+id/btnontap"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:text="Ôn Tập"
@@ -24,7 +25,8 @@
 
         />
     <Button
-        android:onClick="opentracnghiem"
+        android:onClick="openthi"
+        android:id="@+id/btnthi"
         android:layout_width="150dp"
         android:layout_height="70dp"
         android:text="Thi Trắc Nghiệm"
@@ -41,6 +43,7 @@
         android:orientation="horizontal">
         <Button
             android:onClick="openbienbao"
+            android:id="@+id/btnbienbao"
             android:layout_width="150dp"
             android:layout_height="70dp"
             android:text="Các Biển Báo"
@@ -53,6 +56,7 @@
             android:layout_width="150dp"
             android:layout_height="70dp"
             android:text="Mẹo Ghi Nhớ"
+        android:id="@+id/btnmeo"
             android:layout_marginLeft="20dp"
             android:textAllCaps="false"
             android:textColor="#ffffff"

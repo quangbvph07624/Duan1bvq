@@ -9,10 +9,16 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.duanbvq.R;
+import com.example.duanbvq.interfaces.OnTapView;
+import com.example.duanbvq.presenter.MainPresenter;
+import com.example.duanbvq.presenter.Ontappresenter;
 
-public class OntapActivity extends AppCompatActivity {
+public class OntapActivity extends AppCompatActivity implements OnTapView {
+    Button btnone;
+    private Ontappresenter ontappresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,8 +47,17 @@ public class OntapActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    public void one(View view) {
+
+
+    @Override
+    public void navigate_one() {
         Intent intent = new Intent(OntapActivity.this, ExxampleActivity.class);
         startActivity(intent);
+    }
+    public void one(View view) {
+        if (view.getId()==R.id.btnone){
+       ontappresenter.openone();
+        }
+
     }
 }
