@@ -9,20 +9,20 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.duanbvq.R;
-import com.example.duanbvq.activity.QuizActivity;
-import com.example.duanbvq.interfaces.QuizView;
-import com.example.duanbvq.presenter.QuizPresenter;
+import com.example.duanbvq.interfaces.Mainview;
+import com.example.duanbvq.presenter.MainPresenter;
 
-public class WaitTracnghiemActivity extends AppCompatActivity implements QuizView {
+public class WaitTracnghiemActivity extends AppCompatActivity implements Mainview {
     Intent intent;
-    QuizPresenter quizPresenter;
+    MainPresenter mainPresenter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Trắc Nghiệm");
         setContentView(R.layout.activity_wait_tracnghiem);
-        quizPresenter=new QuizPresenter(this);
+       mainPresenter=new MainPresenter(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
@@ -38,6 +38,35 @@ public class WaitTracnghiemActivity extends AppCompatActivity implements QuizVie
     }
 
 
+    @Override
+    public void navigate_ontap() {
+
+    }
+
+    @Override
+    public void navigate_thi() {
+
+    }
+
+    @Override
+    public void navigate_bienbao() {
+
+    }
+
+    @Override
+    public void navigate_meo() {
+
+    }
+
+    @Override
+    public void navigate_next() {
+
+    }
+
+    @Override
+    public void navigate_one() {
+
+    }
 
     @Override
     public void navigate_start() {
@@ -47,7 +76,7 @@ public class WaitTracnghiemActivity extends AppCompatActivity implements QuizVie
     }
     public void start(View view) {
         if (view.getId()==R.id.btnstart){
-            quizPresenter.openStart();
+            mainPresenter.openStart();
 
         }
     }

@@ -57,6 +57,20 @@ public class MainActivity extends AppCompatActivity implements Mainview {
 
     }
 
+    @Override
+    public void navigate_next() {
+
+    }
+
+    @Override
+    public void navigate_one() {
+
+    }
+
+    @Override
+    public void navigate_start() {
+
+    }
 
 
     public void openontep(View view) {

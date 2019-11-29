@@ -12,19 +12,19 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.duanbvq.R;
-import com.example.duanbvq.interfaces.OnTapView;
+import com.example.duanbvq.interfaces.Mainview;
 import com.example.duanbvq.presenter.MainPresenter;
-import com.example.duanbvq.presenter.Ontappresenter;
 
-public class OntapActivity extends AppCompatActivity implements OnTapView {
+public class OntapActivity extends AppCompatActivity implements Mainview {
     Button btnone;
-    private Ontappresenter ontappresenter;
+    private MainPresenter mainPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("Ôn tập các câu hỏi");
         setContentView(R.layout.activity_ontap);
+        mainPresenter=new MainPresenter(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
@@ -48,15 +48,45 @@ public class OntapActivity extends AppCompatActivity implements OnTapView {
     }
 
 
+    @Override
+    public void navigate_ontap() {
+
+    }
+
+    @Override
+    public void navigate_thi() {
+
+    }
+
+    @Override
+    public void navigate_bienbao() {
+
+    }
+
+    @Override
+    public void navigate_meo() {
+
+    }
+
+    @Override
+    public void navigate_next() {
+
+    }
 
     @Override
     public void navigate_one() {
         Intent intent = new Intent(OntapActivity.this, ExxampleActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    public void navigate_start() {
+
+    }
+
     public void one(View view) {
         if (view.getId()==R.id.btnone){
-       ontappresenter.openone();
+       mainPresenter.openone();
         }
 
     }

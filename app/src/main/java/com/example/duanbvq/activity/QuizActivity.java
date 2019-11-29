@@ -9,15 +9,15 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.duanbvq.R;
-import com.example.duanbvq.interfaces.FinishView;
-import com.example.duanbvq.presenter.FinishPresenter;
+import com.example.duanbvq.interfaces.Mainview;
+import com.example.duanbvq.presenter.MainPresenter;
 
-public class QuizActivity extends AppCompatActivity implements FinishView {
-private FinishPresenter finishPresenter;
+public class QuizActivity extends AppCompatActivity implements Mainview {
+private MainPresenter mainPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-finishPresenter=new FinishPresenter(this);
+mainPresenter=new MainPresenter(this);
         setContentView(R.layout.activity_quiz);
         setTitle("Câu Hỏi");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -34,6 +34,25 @@ finishPresenter=new FinishPresenter(this);
     }
 
 
+    @Override
+    public void navigate_ontap() {
+
+    }
+
+    @Override
+    public void navigate_thi() {
+
+    }
+
+    @Override
+    public void navigate_bienbao() {
+
+    }
+
+    @Override
+    public void navigate_meo() {
+
+    }
 
     @Override
     public void navigate_next() {
@@ -41,9 +60,20 @@ finishPresenter=new FinishPresenter(this);
         startActivity(intent);
 
     }
+
+    @Override
+    public void navigate_one() {
+
+    }
+
+    @Override
+    public void navigate_start() {
+
+    }
+
     public void next(View view) {
         if (view.getId()==R.id.btnnext){
-            finishPresenter.opennext();
+            mainPresenter.opennext();
         }
 
     }

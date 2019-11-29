@@ -19,6 +19,15 @@ public class MainPresenter {
     public void openmeo(){
         mainview.navigate_meo();
     }
+    public  void opennext(){
+        mainview.navigate_next();
+    }
+    public void openone(){
+        mainview.navigate_one();
+    }
+    public void openStart(){
+        mainview.navigate_start();
+    }
 
 
 }
