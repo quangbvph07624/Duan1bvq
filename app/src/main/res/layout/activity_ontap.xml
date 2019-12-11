@@ -4,67 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E7DBDB"
     android:orientation="vertical"
     tools:context=".activity.OntapActivity">
-    <Button
-        android:onClick="one"
-        android:id="@+id/btnone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textAlignment="textStart"
-        android:text="1.Quy định về đèn vàng"
-        android:textAllCaps="false"
-        android:gravity="start" />
-    <Button
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:textAlignment="textStart"
-        android:text="2. Vượt xe phải báo hiệu bằng đèn hoặc còi"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="3. 7 nơi không được lùi xe"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="4. Dừng, đỗ xe không cách lề đường phố quá 0,25m"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="5. Xe chữa cháy được đi trước tiên"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="6. Chỉ được “kẹp 3” trên xe máy trong 3 trường hợp"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="7. Người đủ 16 tuổi được đi xe máy"
-        android:gravity="start" />
-    <Button
-        android:textAlignment="textStart"
-        android:layout_width="match_parent"
-        android:textAllCaps="false"
-        android:layout_height="wrap_content"
-        android:text="8. Nhận diện hiệu lệnh của người điều khiển giao thông"
-        android:gravity="start" />
+    <androidx.recyclerview.widget.RecyclerView
 
+        android:id="@+id/rvOntap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+    </androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>

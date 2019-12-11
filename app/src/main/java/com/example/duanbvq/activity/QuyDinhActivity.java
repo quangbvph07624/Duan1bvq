@@ -7,50 +7,47 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 import com.example.duanbvq.R;
 import com.example.duanbvq.adapter.OnTapAdapter;
+import com.example.duanbvq.adapter.QuyDinhAdapter;
 import com.example.duanbvq.database.DataBaseHelper1;
 import com.example.duanbvq.interfaces.Mainview;
 import com.example.duanbvq.model.OnTap;
+import com.example.duanbvq.model.QuyDinh;
 import com.example.duanbvq.presenter.MainPresenter;
 
 import java.util.ArrayList;
 
-public class OntapActivity extends AppCompatActivity implements Mainview {
-    RecyclerView rvOnTap;
-    ArrayList<OnTap> list;
-    OnTapAdapter adapter;
+public class QuyDinhActivity extends AppCompatActivity implements Mainview {
+    RecyclerView rvQuyDinh;
+    ArrayList<QuyDinh> list;
+    QuyDinhAdapter adapter;
     DataBaseHelper1 dataBaseHelper;
     Intent intent;
     MainPresenter mainPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle("Ôn tập các câu hỏi");
-        setContentView(R.layout.activity_ontap);
+        setContentView(R.layout.activity_quy_dinh);
         mainPresenter=new MainPresenter(this);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Quy Định");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         intent=getIntent();
         Bundle bundle=intent.getExtras();
-        rvOnTap = findViewById(R.id.rvOntap);
-        rvOnTap.setHasFixedSize(true);
+        rvQuyDinh = findViewById(R.id.rvQuydinh);
+        rvQuyDinh.setHasFixedSize(true);
         list= new ArrayList<>();
         dataBaseHelper = new DataBaseHelper1(this);
         dataBaseHelper.createDataBase();
-        list=dataBaseHelper.getAllOnTap();
+        list=dataBaseHelper.getAllQuyDinh(bundle.getString("id"));
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-        rvOnTap.setLayoutManager(layoutManager);
-        adapter=new OnTapAdapter(this,list);
-        rvOnTap.setAdapter(adapter);
-
+        rvQuyDinh.setLayoutManager(layoutManager);
+        adapter=new QuyDinhAdapter(this,list);
+        rvQuyDinh.setAdapter(adapter);
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -60,8 +57,6 @@ public class OntapActivity extends AppCompatActivity implements Mainview {
         }
         return super.onOptionsItemSelected(item);
     }
-
-
     @Override
     public void navigate_ontap() {
 
@@ -89,14 +84,11 @@ public class OntapActivity extends AppCompatActivity implements Mainview {
 
     @Override
     public void navigate_one() {
+
     }
 
     @Override
     public void navigate_start() {
-
-    }
-
-    public void one(View view) {
 
     }
 }

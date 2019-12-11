@@ -31,7 +31,8 @@ public class WaitTracnghiemActivity extends AppCompatActivity implements Mainvie
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                onBackPressed();
+                intent=new Intent(this,MainActivity.class);
+                startActivity(intent);
                 return true;
         }
         return super.onOptionsItemSelected(item);

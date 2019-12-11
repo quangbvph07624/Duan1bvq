@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <data>
+        <variable
+            name="ontap"
+            type="com.example.duanbvq.model.OnTap" />
+    </data>
+
+<androidx.cardview.widget.CardView
+  android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:text="@{ontap.title}"
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </TextView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+</layout>

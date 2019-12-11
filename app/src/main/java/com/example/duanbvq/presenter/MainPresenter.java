@@ -26,6 +26,7 @@ public class MainPresenter {
         mainview.navigate_one();
     }
     public void openStart(){
+
         mainview.navigate_start();
     }
 

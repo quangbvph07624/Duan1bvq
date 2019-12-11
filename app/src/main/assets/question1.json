@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "question": "Đâu là : Người điều khiển giao thông trong các trường hợp dưới đây.",
+      "answer1": "Là người điều khiển phương tiện giao thông.",
+      "answer2": "Là cảnh sát giao thông",
+      "answer3": "Là người đi bộ",
+      "answer4": "Tất cả các ý trên",
+      "correct": "Là cảnh sát giao thông"
+    },
+    {
+      "question": "Người đủ 16 tuổi được điều khiển các loại xe nào dưới đây?",
+      "answer1": "Xe mô tô có 2 bánh có dung tích từ 50 cm3 trở lên",
+      "answer2": "Xe gắn máy có dung tích dưới 50 cm3",
+      "answer3": "Xe ô tô tải dưới 3,5 tấn; xe chở người đến 9 chỗ ngồi",
+      "answer4": "Tất cả các ý trên",
+      "correct": "Xe gắn máy có dung tích dưới 50 cm3"
+    },
+    {
+      "question": "Trên đường bộ trong khu vực đông dân cư, xe mô tô hai bánh, xe gắn máy tham gia giao thông với tốc độ tối đa cho phép là bao nhiêu?",
+      "answer1": "60km/h",
+      "answer2": "50km/h",
+      "answer3": "40km/h",
+      "answer4": "30km/h",
+      "correct": "40km/h"
+    },
+    {
+      "question": "Cơ quan nào quy định các đoạn đường cấm đi, đường đi một chiều, nơi cấm dừng, cấm đỗ, cấm quay đầu xe?",
+      "answer1": "Cơ quan quản lý giao thông vận tải",
+      "answer2": "Cơ quan cảnh sát giao thông đường bộ",
+      "answer3": "Thanh tra giao thông đường bộ",
+      "answer4": "Uỷ ban nhân dân tỉnh",
+      "correct": "Uỷ ban nhân dân tỉnh"
+    },
+    {
+      "question": "Khái niệm: Vạch kẻ đường. Được hiểu thế nào là đúng?",
+      "answer1": "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí hướng đi hoặc  dừng lại",
+      "answer2": "Là vạch chỉ sự phân biết vị trí dừng, đổ trên đường",
+      "answer3": "Tất cả các ý là sai",
+      "answer4": "Tất cả các ý là đúng",
+      "correct": "Là vạch chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí hướng đi hoặc  dừng lại"
+    },
+    {
+      "question": "Người điều khiển xe mô tô, xe gắn máy trên đường mà trong máu có nồng độ cồn vượt quá bao nhiêu thì bị cấm?",
+      "answer1": "Nồng độ cồn vượt quá 50 miligam/100 mililít máu",
+      "answer2": "Nồng độ cồn vượt quá 60 miligam/100 mililít máu",
+      "answer3": "Nồng độ cồn vượt quá 30 miligam/100 mililít máu",
+      "answer4": "Nồng độ cồn vượt quá 40 miligam/100 mililít máu",
+      "correct": "Nồng độ cồn vượt quá 40 miligam/100 mililít máu"
+    },
+    {
+      "question": "Việc sản xuất, mua bán, sử dụng biển số xe cơ giới, xe máy chuyên dùng được quy định như thế nào?",
+      "answer1": "Nghiêm cấm sản xuất, được phép sử dụng",
+      "answer2": "Nghiêm cấm mua bán, cho phép sử dụng",
+      "answer3": "Nghiêm cấm sản xuất, mua bán, sử dụng trái phép",
+      "answer4": "Không bị nghiêm cấm",
+      "correct": "Nghiêm cấm sản xuất, mua bán, sử dụng trái phép"
+    },
+    {
+      "question": "Tại nơi đường giao nhau có báo hiệu đi theo vòng xuyến, người điều khiển phương tiện phải nhường đường như thế nào?",
+      "answer1": "Không phải nhường",
+      "answer2": "Phải nhường đường cho xe đi bên phải",
+      "answer3": "Xe báo hiệu xin đường trước xe đó được đi trước",
+      "answer4": "Phải nhường đường cho xe đi bên trái",
+      "correct": "Phải nhường đường cho xe đi bên trái"
+    },
+    {
+      "question": "Người ngồi trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy khi tham gia giao thông có được mang,vác vật cồng kềnh hay không?",
+      "answer1": "Được mang, vác tùy trường hợp cụ thể",
+      "answer2": " Có được mang, vác ",
+      "answer3": "Không được mang, vác",
+      "answer4": "Được mang vác nhưng phải đảm bảo an toàn",
+      "correct": "Được mang vác nhưng phải đảm bảo an toàn"
+    },
+    {
+      "question": "Những hành vi nào sau đây bị nghiêm cấm?",
+      "answer1": "Đội mũ bảo hiểm an toàn ",
+      "answer2": "Tuân thủ luật đúng lệ giao thông",
+      "answer3": "Đua xe, cổ vũ, tổ chức đua xe trái phép",
+      "answer4": "Dừng xe khi có tín hiệu đèn đỏ",
+      "correct": "Đua xe, cổ vũ, tổ chức đua xe trái phép"
+    },
+    {
+      "question": "Người lái xe phải làm gì khi quay đầu xe trên cầu,gầm cầu vượt, gầm cầu vượt, đường gầm?",
+      "answer1": "Không được quay đầu xe",
+      "answer2": " Lợi dụng chỗ rộng và phải có người làm tín hiệu sau xe để đảm báo an toàn",
+      "answer3": "Lợi dụng chỗ rộng có thể quay đầu được để quay đầu xe cho an toàn",
+      "answer4": "Tất cả các ý đều sai",
+      "correct": "Không được quay đầu xe"
+    },
+    {
+      "question": "Hành vi bỏ trốn sau khi gây tai nạ để trốn tránh trách nghiệm hoặc khi có điều kiện không cứu giúp người tai nạn giao thông có bị nghiêm cấm?",
+      "answer1": "Bị nghiêm cấm",
+      "answer2": "Không bị nghiêm cấm",
+      "answer3": "Nghiêm cấm tùy trường hợp cụ thể",
+      "answer4": "Tất cả các ý đều sai",
+      "correct": "Bị nghiêm cấm"
+    },
+    {
+      "question": "Đảm bảo trật tự, an toàn giao thông đường bộ là trách nghiệm của ai?",
+      "answer1": "Là trách nghiệm của nghành Giao thông vận tải và nghành Công an",
+      "answer2": "Là trách nghiệm của cơ quan, tổ chức cá nhân",
+      "answer3": "Là của nhân dân",
+      "answer4": "Là trách nghiệm của cảnh sát giao thông",
+      "correct": "Là trách nghiệm của cơ quan, tổ chức cá nhân"
+    },
+    {
+      "question": "Người ngồi trên xe mô tô hai bánh, ba bánh, xe gắn máy khi tham gia giao thông không được thực hiện hành vi nào sau đây?",
+      "answer1": "Đội mũ bảo hiểm và cai quai đúng quy định",
+      "answer2": "Sử dụng ô, bám, hoặc đẩy các phương tiện khác",
+      "answer3": "Không đứng trên yên, giá đèo hàng",
+      "answer4": "Không ngồi trên tay lái",
+      "correct": "Sử dụng ô, bám, hoặc đẩy các phương tiện khác"
+    },
+    {
+      "question": "Người điều khiển xe mô tô, xe gắn máy trên đường mà trong máu có nồng độ cồn vượt quá bao nhiêu thì bị cấm?",
+      "answer1": "Nồng độ cồn vượt quá 0,25 miligam/1 lít khí thở",
+      "answer2": "Nồng độ cồn vượt quá 0,20 miligam/1 lít khí thở",
+      "answer3": "Nồng độ cồn vượt quá 0,25 miligam/1 lít khí thở",
+      "answer4": "Nồng độ cồn vượt quá 0,26 miligam/1 lít khí thở",
+      "correct": "Nồng độ cồn vượt quá 0,25 miligam/1 lít khí thở"
+    },
+    {
+      "question": "Xe sau có thể vượt lên bên phải xe khác đang chạy phía trước trong trường hợp nào",
+      "answer1": "Khi có đủ khoảng trống để vượt xe",
+      "answer2": " Không được vượt",
+      "answer3": "Khi xe chuyên dụng đang làm việc trên đường mà không thể vượt bên trái được",
+      "answer4": "Tất cả đáp án đầu đúng",
+      "correct": "Khi xe chuyên dụng đang làm việc trên đường mà không thể vượt bên trái được"
+    },
+    {
+      "question": "Tại nơi đường giao nhau, người lái xe đang đi trên đường không ưu tiên phải nhường đường như thế nào?",
+      "answer1": "Nhường đường cho xe đi ở bên trái mình tới",
+      "answer2": "Nhường đường cho xe đi ở bên phải mình tới",
+      "answer3": "Nhường đường cho xe đi trên đường ưu tiên hoặc đường chính từ bất kỳ hướng nào tới",
+      "answer4": "Tất cả các ý trên đều sai",
+      "correct": "Nhường đường cho xe đi trên đường ưu tiên hoặc đường chính từ bất kỳ hướng nào tới"
+    },
+    {
+      "question": "Khái niệm: Đường cao tốc .Được hiểu như thế nào là đúng?",
+      "answer1": "Là đường dành cho xe cơ giới, có dải phân cách chia đường cho xe chạy hai chiều riêng biệt",
+      "answer2": "Là đường  được bố trí bảo đảm giao thông liên tục, an toàn, rút ngắn thời gian hành trình",
+      "answer3": "Chỉ cho xe ra, vào ở những điểm nhất định.",
+      "answer4": "Tất cả các ý trên",
+      "correct": "Tất cả các ý trên"
+    },
+    {
+      "question": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+      "answer1": "Đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm",
+      "answer2": "Nghe điện thoại khi tham gia giao thông",
+      "answer3": "Đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy cách",
+      "answer4": "Lạng lách, đánh võng",
+      "correct": "Đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy cách"
+    },
+    {
+      "question": "Trên đường giao thông, khi hiệu lệnh của người điều khiển giao thông trái với hiệu lệnh của đèn hoặc biển báo thì người tham gia giao thông chấp hành theo hiệu lệnh nào",
+      "answer1": "Hiệu lệnh của người điều khiển giao thông",
+      "answer2": "Hiệu lệnh của đèn điều khiển giao thông",
+      "answer3": "Hiệu lệnh của biển báo giao thông",
+      "answer4": "Không theo hiệu lệnh nào",
+      "correct": "Hiệu lệnh của người điều khiển giao thông"
+    }
+  ]
+}
